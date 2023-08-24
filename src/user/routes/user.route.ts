@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import { Request, Response, NextFunction } from 'express';
 import { list, insert, update, deleteUser, getById, passwordRecovery, newPasswordByToken } from '../controllers/user.controller';
 import { validJWTNeeded } from '../../shared/middlewares/jwt.validation.middleware';
 
